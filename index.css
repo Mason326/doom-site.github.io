@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-image: url(img/Side.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.cards-section{
+    padding: 0 35%;
+}
+.cards-title, .cards-description{
+    text-align: center;
+    margin-top: 10px;
+}
+.card{
+    display: inline-block;
+    padding: 25px;
+    margin-top: 5px;
+    width: 10;
+    background: white;
+    box-shadow: 45px 2px 50px 0px grey;
+    text-align: center;
+}
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+.card-button{
+    text-align: center;
+    padding: 10px 70px;
+    border-radius: 10px;
+    background: rgb(107, 11, 11);
+    margin-top: 10px;
+    cursor: pointer;
+}
